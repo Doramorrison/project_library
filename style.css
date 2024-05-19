@@ -1,0 +1,148 @@
+/*nav start*/
+.navbar {
+    font-size: 20px; /* Adjust the font size */
+    font-weight:bold;
+}
+.nav-link{
+    color: #06099c;
+}
+.nav-link:hover{
+    color: #353ee4;
+}
+.dropdown-menu{
+    background-color: #023e8a;
+}
+.dropdown-menu .dropdown-item{
+    color:white;
+}
+.dropdown-menu .dropdown-item:hover{
+   background-color: #0077b6;
+}
+.copy1 {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #000000;  
+}  
+/*nav end*/
+/*start*/
+.heading1{
+    color: #06099c;
+}
+p.text1{
+    font-size: 18px;
+    color: #060049;
+}
+p.text9{
+    font-size: 22px;
+    color: #060049;
+}
+.dd{
+    margin: auto;
+}
+/* Default style for margin-top */
+.col-xl-8 {
+    margin-top: 0; /* No margin by default */
+}
+
+/* Media query for extra-large screens (laptops) */
+@media (min-width: 1200px) {
+    .col-xl-8 {
+        margin-top: 130px; /* Apply margin-top of 150px for extra-large screens */
+    }
+}
+/*end*/
+/*start*/
+.text{
+    text-align: center;
+    color: #06099c;
+}
+.text2{
+    color: #060049;
+}
+/*end*/
+.hh{
+    border: 1px #06099c solid;
+}
+/*card start*/
+.text3{
+    color:#06099c;
+    text-align: center;
+}
+.text4{
+    color:#023e8a;
+    text-align: center;
+}
+.text5{
+    color: #060049;
+    text-align: center;
+}
+/*card end*/
+.text7 {
+    font-size: 17px;
+    color: #060049;
+}
+.text8 {
+    color: #060049;
+}
+/*footer start*/
+footer {  
+    background: #111e6c;  
+    color: white;  
+    margin-top:40px;  
+}  
+footer a {  
+    color: #fff;  
+    font-size: 14px; 
+    text-decoration: none;  
+}  
+footer a:hover{
+    color: #bcc7ca;
+}
+ul.social-network {  
+    list-style: none;  
+    display: inline;  
+    margin-left: 0;  
+    padding: 0;  
+}  
+ul.social-network li {  
+    display: inline;  
+    margin: 0 5px;  
+}  
+.social-network a {  
+    background-color: #F9F9F9;  
+}  
+.bi{
+    font-size: 25px;
+}
+.copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #FFFFFF;  
+}  
+.text-center{
+    font-size: 16px;
+}
+/* Media query for small devices */
+@media (max-width: 767px) {
+/* Center-align the social icons */
+    footer ul.social-network {
+        text-align: center;
+    }
+
+/* Center-align the h3 headings */
+    footer h3 {
+        text-align: center;
+    }
+
+/* Center-align the <a> tags within <li> elements */
+    footer ul.list-unstyled li {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+/* Apply text-align: center; to list-inline in the footer */
+    footer .list-inline {
+        text-align: center;
+    }
+}
+/*footer end*/
